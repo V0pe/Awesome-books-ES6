@@ -5,7 +5,7 @@
 
 > This is a solo project being built to show the usage of html and javascript. its a book application were you are able to add and remove book to a list
 
-Our goal here is to Build a book application with add and remove feature from scratch using JavaScripts.
+The goal here is to Build a book application with add and remove feature from scratch using JavaScripts.
 
 ## Features implemented so far are:
 
