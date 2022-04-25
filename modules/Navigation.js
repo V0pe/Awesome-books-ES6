@@ -1,5 +1,5 @@
 const Navigation = () => {
-    const displayList = () => {
+  const displayList = () => {
     document.getElementById('book-list').style.display = 'flex';
     document.getElementById('add-book').style.display = 'none';
     document.getElementById('contact-info').style.display = 'none';
@@ -10,9 +10,9 @@ const Navigation = () => {
     document.getElementById('add').style.fontWeight = 'normal';
     document.getElementById('contact').style.color = '#000';
     document.getElementById('contact').style.fontWeight = 'normal';
-  }
-  
-   const displayAdd = () => {
+  };
+
+  const displayAdd = () => {
     document.getElementById('book-list').style.display = 'none';
     document.getElementById('add-book').style.display = 'block';
     document.getElementById('contact-info').style.display = 'none';
@@ -22,8 +22,8 @@ const Navigation = () => {
     document.getElementById('list').style.fontWeight = 'normal';
     document.getElementById('contact').style.color = '#000';
     document.getElementById('contact').style.fontWeight = 'normal';
-  }
-  
+  };
+
   const displayContact = () => {
     document.getElementById('book-list').style.display = 'none';
     document.getElementById('add-book').style.display = 'none';
@@ -34,11 +34,11 @@ const Navigation = () => {
     document.getElementById('add').style.fontWeight = 'normal';
     document.getElementById('list').style.color = '#000';
     document.getElementById('list').style.fontWeight = 'normal';
-  }
+  };
 
-  document.querySelector('#list').addEventListener('click', displayList)
-  document.querySelector('#add').addEventListener('click', displayAdd)
-  document.querySelector('#contact').addEventListener('click', displayContact)
-}
+  document.querySelector('#list').addEventListener('click', displayList);
+  document.querySelector('#add').addEventListener('click', displayAdd);
+  document.querySelector('#contact').addEventListener('click', displayContact);
+};
 
 export default Navigation;
