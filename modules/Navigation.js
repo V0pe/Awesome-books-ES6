@@ -1,5 +1,5 @@
 const Navigation = () => {
-    displayList = () => {
+    const displayList = () => {
     document.getElementById('book-list').style.display = 'flex';
     document.getElementById('add-book').style.display = 'none';
     document.getElementById('contact-info').style.display = 'none';
@@ -12,7 +12,7 @@ const Navigation = () => {
     document.getElementById('contact').style.fontWeight = 'normal';
   }
   
-  displayAdd = () => {
+   const displayAdd = () => {
     document.getElementById('book-list').style.display = 'none';
     document.getElementById('add-book').style.display = 'block';
     document.getElementById('contact-info').style.display = 'none';
@@ -24,7 +24,7 @@ const Navigation = () => {
     document.getElementById('contact').style.fontWeight = 'normal';
   }
   
-  displayContact = () => {
+  const displayContact = () => {
     document.getElementById('book-list').style.display = 'none';
     document.getElementById('add-book').style.display = 'none';
     document.getElementById('contact-info').style.display = 'flex';
