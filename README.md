@@ -3,23 +3,26 @@
 
 ## Awesome books with ES6
 
-> This is a solo project being built to show the usage of html and javascript. its a book application were you are able to add and remove book to a list
+> This is a solo project being built to show the usage of HTML and javascript. it is a book application where you can add and remove books from a list
 
-The goal here is to Build a book application with add and remove feature from scratch using JavaScripts.
+The goal here is to Build a book application with add and remove features from scratch using JavaScript refactoring.
 
 ## Features implemented so far are:
 
 Responsive HTML page 
 Add book feature
 Remove book feature
-Saving current state of book list to local storage
-The classes and methods are built using modules and arrow function respectively. 
-The date feature was built using luxon library
+Saving the current state of the book list to local storage
+The classes and methods are built using modules and arrow functions respectively. 
+The date feature was built using the luxon library
 
 ## Built With
 
 >- HTML
 >- Javascript
+
+## Live Project 
+>- You can access the live project [here](https://v0pe.github.io/Awesome-books-ES6/)
 
 ## Getting Started
 > To get a local copy, follow the following steps
